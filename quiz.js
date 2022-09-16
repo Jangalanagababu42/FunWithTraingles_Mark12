@@ -15,7 +15,7 @@ function calculateScore(){
                 count = count + 1;
 
     }
-    if(count===10){
+    if(count===8){
     outputEl.innerText="Your Score is "+ score;}
     else{
     outputEl.innerText="Please Provide all the Inputs ";

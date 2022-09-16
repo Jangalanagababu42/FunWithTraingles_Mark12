@@ -8,9 +8,14 @@ function calculateSumOfSqaures(a,b){
 }
 
 function calculateHypotenuse(){
+        if (Number(sides[0].value) > 0 && Number(sides[1].value)> 0) {
+
     const sumOfSqaures=calculateSumOfSqaures(Number(sides[0].value),Number(sides[1].value));
     const lengthOfhypotenuse=Math.sqrt(sumOfSqaures);
-    outputEl.innerText="The Length of Hypotenuse is " + lengthOfhypotenuse
+    outputEl.innerText="The Length of Hypotenuse is " + lengthOfhypotenuse}
+    else{
+        outputEl.innerText="Please Provide values Greater Than Zero"} 
+    }
 }
 
 hypotenuseBtn.addEventListener("click",calculateHypotenuse);

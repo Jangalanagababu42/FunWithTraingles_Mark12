@@ -14,7 +14,7 @@ function calculateareaOfTriangles(){
     outputEl.innerText="The Area of Triangle is " + areaOfTraingle}
     else{
       outputEl.innerText="Don't be Silly Please Provide Some Valid Inputs😀😀😀 " }   
-    }
+    
 }
 
 hypotenuseBtn.addEventListener("click",calculateareaOfTriangles);

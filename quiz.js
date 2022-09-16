@@ -5,7 +5,7 @@ const correctAnswers=["Equilateral","√3/4 a2","3","10 cm"," 108 sq.cm.","30 cm
 function calculateScore(){
     let score=0;
     let index=0;
-    int count=0;
+    let count=0;
     const formResults=new FormData(quizForm);
     for(let value of formResults.values()){
         if(value===correctAnswers[index]){

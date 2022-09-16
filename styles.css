@@ -102,11 +102,11 @@ margin: auto;
 .area,.Hypotenuse,.isTriangle{
    text-align: center;
 }
-#area-btn,#hypotenuse-btn,#is-triangle-btn{
+#area-btn,#hypotenuse-btn,#is-triangle-btn,#submit-answer-btn{
     margin: 1rem;
     border-radius: 1rem;
 }
-#area-btn:hover,#hypotenuse-btn:hover,#is-triangle-btn:hover{
+#area-btn:hover,#hypotenuse-btn:hover,#is-triangle-btn:hover,#submit-answer-btn:hover{
     background-color: bisque;
     color: brown;
 }
@@ -130,6 +130,8 @@ h1{
 }
 #output{
     text-align: center;
+    color: rgb(196, 26, 142);
+  
 }
 .main{
     margin-bottom: 20rem;

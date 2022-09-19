@@ -8,6 +8,7 @@ function calculateSumOfSqaures(a,b){
 }
 
 function calculateHypotenuse(){
+     if (Number(sides[0].value) && Number(sides[1].value)!=="") {
         if (Number(sides[0].value) > 0 && Number(sides[1].value)> 0) {
 
     const sumOfSqaures=calculateSumOfSqaures(Number(sides[0].value),Number(sides[1].value));
@@ -16,7 +17,10 @@ function calculateHypotenuse(){
         }
     else{
         outputEl.innerText="Please Provide values Greater Than Zero";
-    } 
+    } }
+    else{
+         outputEl.innerText="The Values are Empty Please Provide Some Inputs";
+    }
     
 }
 
